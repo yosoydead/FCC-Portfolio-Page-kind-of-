@@ -1,0 +1,58 @@
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* styling the navbar ul */
+nav ul{
+    text-align: right;
+    position: fixed;
+    width: 100%;
+    background-color: #e0ebe8;
+}
+
+/* styling each individual element of the navbar */
+nav ul li{
+    display: inline-block;
+    margin: 55px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+/* navbar links */
+nav ul li a {
+    color: #008080;
+    text-decoration: none;
+    transition: color .5s;
+}
+
+/* this adds an invisible elements at the
+end of each link which will use an animation
+to become visible */
+nav ul li a::after{
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+/* this changes the color of the link with transition */
+nav ul li a:hover {
+    color: black;
+}
+
+/* this makes that invisible element visible
+through that transition */
+nav ul li a:hover::after{
+    width: 100%;
+    background: blue;
+}
