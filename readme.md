@@ -11,7 +11,8 @@
     * [x] 7. The navbar should contain at least one link that I can click on to navigate to different sections of the page.
     * [x] 8. My portfolio should have a link with an id of profile-link, which opens my GitHub or FCC profile in a new tab.
     * [x] 9. My portfolio should have at least one media query.
-    * [ ] 10. The height of the welcome section should be equal to the height of the viewport.
-    * [ ] 11. The navbar should always be at the top of the viewport.
+    * [x] 10. The height of the welcome section should be equal to the height of the viewport.
+    * [x] 11. The navbar should always be at the top of the viewport.
 
-* The codepen [link](https://link).
+* The codepen link is not available at the time.
+* **!Disclaimer** This is not the final form of the project. I will revisit this after finishing the a node tutorial.
