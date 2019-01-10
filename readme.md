@@ -2,8 +2,8 @@
 * Source: https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage
 
 To do's:
-1. * [ ] 1. My portfolio should have a welcome section with an id of welcome-section.
-2. * [ ] 2. The welcome section should have an h1 element that contains text.
+1. * [x] 1. My portfolio should have a welcome section with an id of welcome-section.
+2. * [x] 2. The welcome section should have an h1 element that contains text.
 3. * [ ] 3. My portfolio should have a projects section with an id of projects.
 4. * [ ] 4. The projects section should contain at least one element with a class of project-tile to hold a project.
 5. * [ ] 5. The projects section should contain at least one link to a project.

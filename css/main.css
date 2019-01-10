@@ -56,3 +56,15 @@ nav ul li a:hover::after{
     width: 100%;
     background: blue;
 }
+
+/* styling the intro section */
+.intro {
+    top: 0;
+    background: #e0ebe8;
+    min-height: 55vh;
+    padding-top: 45vh;
+}
+
+.intro p{
+    color: green;
+}
